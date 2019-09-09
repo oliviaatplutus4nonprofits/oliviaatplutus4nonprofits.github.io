@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Overlock);
+@import url(https://fonts.googleapis.com/css?family=Hepta)
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 1em;
+	background-color: #ffffff;
+	text-align: center;
+	position: relative;
+}
+
+header {
+	background-color: #CCA1B5;
+	padding: 1em;
+}
+
+h1 {
+	font-family: 'Overlock', sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+a {
+	color: #CCA1B5;
+	text-decoration: none;
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+}
+
+nav a {
+	color: #000000;
+	font-style: italic;
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+	margin: 1.5em;
+}
+
+img {
+	width: 40%;
+}
+
+main {
+	padding: 1em;
+}
+
+ul {
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+	list-style-position: inside;
+}
+
+section {
+	margin: 1em;
+}
+
+footer {
+	background-color:#CCA1B5;
+	padding: 1em;
+	text-align: center; 
+}
+
+h2, h3, h4 {
+	font-family: 'Overlock',sans-serif;
+	font-size: 3em;
+	margin: 1em;
+}
+
+p {
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+}
