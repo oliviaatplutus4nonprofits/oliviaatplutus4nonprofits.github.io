@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Overlock);
+@import url(https://fonts.googleapis.com/css?family=Hepta)
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	position: relative;
+}
+
+header {
+	background-color:#b980ff;
+	padding: 1em;
+}
+
+nav{
+	text-align: center;
+	float: right;
+}
+
+nav a:link {
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+	margin: 1.5em;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #222;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+nav a:active{
+	color:#fff;
+}
+
+
+
+main {
+	padding: 1em;
+	background-color: #F1E9E4;
+}
+
+section{
+	padding:50px 0;
+	float: left;
+}
+
+footer {
+	background-color:#b980ff;
+	padding: 1em;
+	text-align: center; 
+}
+
+h1 {
+	font-family: 'Overlock', sans-serif;
+	font-weight: normal;
+	font-size: 5em;
+	text-align: center;
+
+}
+
+h2, 
+h3, 
+h4 {
+	font-family: 'Overlock',sans-serif;
+	font-size: 3em;
+	margin: 1em;
+ 	border-bottom: 4px solid black;
+	display: inline-block;
+}
+
+p {
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+	padding: .8em 0;
+}
+
+a {
+	color: #CCA1B5;
+	text-decoration: none;
+	font-family: 'Hepta Slab', serif;
+	font-size: 1.5em;
+}
+
+img {
+	width: 40%;
+	float: left;
+	display: block;
+	margin: 0 auto
+}
+
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	width: 90%;
+    margin: auto;
+}
+
+.about{
+	width: 75%;
+	margin: 1.5%;
+	float: left;
+	clear: both;
+}
+
+.about img{
+	display: block;
+	margin: auto;
+}
+
+.about > h2{
+	margin: .5em;
+}
+
+.offer {
+	width: 30%;
+	margin: 1%;
+	float: left;
+}
+
+.offer > h3{
+	margin: .5em;
+}
+
+#offer{
+	background-color:#000;
+	color:#F1E9E4;
+}
