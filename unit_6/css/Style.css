@@ -99,6 +99,10 @@ img {
 	margin: 0 auto
 }
 
+h2 + hr{
+	background-color: #fff;
+	height:1px;
+}
 
 .clearfix:after{
 	visibility: hidden;
@@ -131,9 +135,13 @@ img {
 }
 
 .offer {
-	width: 30%;
+	width: 25%;
 	margin: 1%;
 	float: left;
+  	outline: 3px solid #222;
+  	text-align: center;
+   	color: #000;
+  	background: #fff
 }
 
 .offer > h3{
