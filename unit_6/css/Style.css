@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Overlock);
-@import url(https://fonts.googleapis.com/css?family=Hepta)
+@import url(https://fonts.googleapis.com/css?family=Hepta+Slab);
 
 * {
 	padding: 0;
@@ -8,27 +8,30 @@
 }
 
 body {
+	font-family: 'Hepta Slab', serif;
 	font-size: 1em;
 	position: relative;
 }
 
-header {
-	background-color:#b980ff;
-	padding: 1em;
+#header {
+	background-color: #b980ff;
+	padding: .25em;
 }
 
 nav{
-	text-align: center;
-	float: right;
+	background-color: #b980ff;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav a:link {
-	font-family: 'Hepta Slab', serif;
+	
 	font-size: 1.5em;
 	margin: 1.5em;
 	text-align: center;
 	letter-spacing: 2px;
 	color: #222;
+	
 }
 
 nav a:visited{
@@ -43,18 +46,6 @@ nav a:active{
 	color:#fff;
 }
 
-
-
-main {
-	padding: 1em;
-	background-color: #F1E9E4;
-}
-
-section{
-	padding:50px 0;
-	float: left;
-}
-
 footer {
 	background-color:#b980ff;
 	padding: 1em;
@@ -66,6 +57,7 @@ h1 {
 	font-weight: normal;
 	font-size: 5em;
 	text-align: center;
+	padding: .25em;
 
 }
 
@@ -73,35 +65,36 @@ h2,
 h3, 
 h4 {
 	font-family: 'Overlock',sans-serif;
-	font-size: 3em;
-	margin: 1em;
- 	border-bottom: 4px solid black;
-	display: inline-block;
+	font-size: 2em;
+	margin-bottom: .25em;
 }
 
 p {
 	font-family: 'Hepta Slab', serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	padding: .8em 0;
 }
 
 a {
 	color: #CCA1B5;
 	text-decoration: none;
-	font-family: 'Hepta Slab', serif;
 	font-size: 1.5em;
 }
 
 img {
-	width: 40%;
-	float: left;
+	width: 100%;
 	display: block;
-	margin: 0 auto
 }
 
-h2 + hr{
-	background-color: #fff;
-	height:1px;
+.about figure.subcontainer {
+	width: 40%;
+
+}
+
+.about figcaption.subcontainer {
+	width: 60%;
+	padding-left: 6em;
+	text-align: justify;
 }
 
 .clearfix:after{
@@ -113,42 +106,40 @@ h2 + hr{
 	clear:both;
 }
 
-.wrapper{
-	width: 90%;
-    margin: auto;
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.about{
-	width: 75%;
-	margin: 1.5%;
-	float: left;
-	clear: both;
+.about .container {
+	display: flex;
+	align-items: center;
+	padding-top: 10em;
 }
 
-.about img{
-	display: block;
-	margin: auto;
+#offerings .container:last-child {
+	display: flex;
+	justify-content: space-between;
 }
 
-.about > h2{
-	margin: .5em;
+#offerings {
+	padding-top: 10em;
+	padding-bottom: 10em;
 }
 
 .offer {
-	width: 25%;
-	margin: 1%;
-	float: left;
-  	outline: 3px solid #222;
+	width: calc(33.33% - 1em);
   	text-align: center;
-   	color: #000;
   	background: #fff
 }
 
-.offer > h3{
-	margin: .5em;
+.offer:hover {
+	background-color: #b980ff;
 }
 
-#offer{
-	background-color:#000;
-	color:#F1E9E4;
+#offerings .container > h2 {
+	margin: .5em;
+	text-align: center;
+	font-size: 2.5em;
 }
