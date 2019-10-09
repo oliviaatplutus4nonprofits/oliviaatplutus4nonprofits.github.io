@@ -8,13 +8,12 @@
 
 body {
 	font-size: 1em;
-	background-color: #ffffff;
 	text-align: center;
 	position: relative;
 }
 
 header {
-	background-color: #CCA1B5;
+	background-color: #FFED74;
 	padding: 1em;
 }
 
@@ -33,11 +32,19 @@ a {
 }
 
 nav a {
-	color: #000000;
+	background-color: #E8C66A;
 	font-style: italic;
 	font-family: 'Hepta Slab', serif;
 	font-size: 1.5em;
 	margin: 1.5em;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
 }
 
 img {
@@ -56,10 +63,11 @@ ul {
 
 section {
 	margin: 1em;
+	background-color: #FFE2B8;
 }
 
 footer {
-	background-color:#CCA1B5;
+	background-color:#FF957E;
 	padding: 1em;
 	text-align: center; 
 }
